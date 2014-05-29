@@ -1,0 +1,103 @@
+.block {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	margin: 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	white-space: nowrap;
+    background-color: magenta;
+}
+.snake {
+   	position: absolute;
+	background-color: black;
+	width: 10px;
+	height: 10px;
+	margin: 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	white-space: nowrap; 
+}
+.diff {
+    height: 70px;
+    width: 300px;
+    font-size: 25px; 
+    background-color: #10da86;
+}
+
+table {
+    text-align: center;
+    vertical-align: middle;
+    width: 420px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    border-spacing: 0px 0px;
+}
+p{
+    font-size: 20px;
+    font-family: Verdana;
+    white-space:nowrap;
+}
+h1 {
+    font-size: 30px;
+    font-family: Verdana;
+    text-align: center;  
+}
+td {
+    padding: 0px;
+    width: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 10px solid #000;
+}
+button {
+    height: 70px;
+    width: 200px;
+    font-size: 25px; 
+    background-color: #10da86;
+    border-radius: 10px;
+}
+a {
+    text-decoration:none;
+}
+#title {
+    background-image: url(title.jpg);
+    width:378px;
+    height:185px;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    text-align: center;
+}
+#path {
+	position: relative;
+	overflow: hidden;
+	width: 0px;
+	height: 0px;
+}
+#easy {
+    background-color: lightgreen;
+}    
+#medium {
+    background-color: yellow;
+}
+#hard {
+    background-color: maroon;
+    color: white;
+}
+#reset {
+    background-color: #f4b406;
+}
+#catch {
+    background-color:#f40b51;
+}
+#score {
+    color: red;
+}
+#intro {
+    text-align: center;
+    vertical-align: middle;
+}
