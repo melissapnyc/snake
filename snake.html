@@ -1,0 +1,30 @@
+<!DOCTYPE HTML 5.14.14>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="style.css">
+    <title>Snake</title>
+</head>
+<body>
+
+<table style="text-align:center">
+    <tr>
+        <td style="border-bottom:0px"><a href="snake.html"><div id="title"><br><br><br><br><br><br><b><p style="text-align:right; vertical-align:bottom" id="score">Score: 0</p></b></div></a>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top:-10px; height:420px"><p id="intro"><br><b>Choose your difficulty:</b><br><br>
+        <button class="diff" id="easy" onclick="easy()"><i>What's snake again?</i></button><br><br>
+        <button class="diff" id="medium" onclick="medium()"><i>Oh right, I know this.</i></button><br><br>
+        <button class="diff" id="hard" onclick="hard()"><i>Don't worry, I got this!</i></button></p>
+        <div style="text-align:center" id="path">
+            <div id="block" class="block"></div>
+            <div id="snake0" class="snake"></div>
+        </div>
+        </td>
+    </tr>
+    
+</table>
+<br>
+<script src="script.js"></script>
+</body>
+</html>
